@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPA推進チーム会議 議事録</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .main-heading {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .summary-section {
+            background-color: #f8f9fa;
+            border-left: 5px solid #28a745;
+        }
+        .task-section {
+            background-color: #e8f4fd;
+            border-left: 5px solid #007bff;
+        }
+        .schedule-section {
+            background-color: #fff3e0;
+            border-left: 5px solid #ff9800;
+        }
+        .issue-section {
+            background-color: #feecf0;
+            border-left: 5px solid #dc3545;
+        }
+        .section-heading {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        .subsection-heading {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .highlight {
+            background-color: #ffffcc;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .emoji-icon {
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 7px;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+        .badge-success {
+            background-color: #28a745;
+        }
+        .badge-warning {
+            background-color: #ffc107;
+            color: #212529;
+        }
+        .badge-danger {
+            background-color: #dc3545;
+        }
+        .badge-info {
+            background-color: #17a2b8;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="main-heading">RPA推進チーム会議 議事録</h1>
+
+    <div class="section">
+        <p><strong>日時：</strong>2025年3月31日（月）午後4:30～5:13</p>
+        <p><strong>参加者：</strong>五艘勇士、他5名</p>
+    </div>
+
+    <!-- サマリーセクション -->
+    <div class="section summary-section">
+        <h2 class="section-heading"><span class="emoji-icon">📋</span>会議のポイント</h2>
+        <ul>
+            <li>確定申告RPAが正式に承認され、2ポイント相当の効果があると評価</li>
+            <li>上半期は1人1つのRPA開発という目標が未達成、下半期は期限を明確化</li>
+            <li>複数のRPAプロジェクトの進捗確認と今後の計画策定</li>
+            <li>新規RPA候補として業務進捗管理表の更新ロボットを検討</li>
+            <li>パソコンの老朽化によるRPA実行環境の課題を確認</li>
+        </ul>
+    </div>
+
+    <!-- ネクストアクションセクション -->
+    <div class="section task-section">
+        <h2 class="section-heading"><span class="emoji-icon">⚡</span>ネクストアクション</h2>
+        
+        <h3 class="subsection-heading">参加者1（五艘）</h3>
+        <ul>
+            <li>既存RPAのアップデート作業（法人決算RPAの共有フォルダ出力対応など）</li>
+            <li>次回全体会議での報告準備と各メンバーの期限設定の取りまとめ</li>
+        </ul>
+
+        <h3 class="subsection-heading">参加者2（オガワ）</h3>
+        <ul>
+            <li>中間納付取得RPAのExcel条件指定問題を解決する <span class="badge badge-warning">技術課題</span></li>
+            <li>5月末までの完成を目指す</li>
+            <li>完成度は現在約7割の段階</li>
+        </ul>
+
+        <h3 class="subsection-heading">参加者3（ノリタケ）</h3>
+        <ul>
+            <li>年末調整RPAの開発を最優先で進める</li>
+            <li>法定調書RPAは後回しとし、まずは年末調整を完成させる</li>
+            <li>4月中の進捗を全体会議までに検討</li>
+        </ul>
+
+        <h3 class="subsection-heading">参加者4（ナガヤマ）</h3>
+        <ul>
+            <li>社長の成績表RPAの実運用開始 <span class="badge badge-success">完了済</span></li>
+            <li>ヤマザキ商事給与データインポートの要件を調査</li>
+            <li>ハラダさんに詳細を確認し、実現可能性を検討</li>
+        </ul>
+    </div>
+
+    <!-- スケジュールセクション -->
+    <div class="section schedule-section">
+        <h2 class="section-heading"><span class="emoji-icon">📅</span>開発スケジュール</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>RPA名</th>
+                    <th>担当者</th>
+                    <th>期限</th>
+                    <th>状況</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>確定申告RPA</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span class="badge badge-success">承認済</span></td>
+                </tr>
+                <tr>
+                    <td>中間納付取得RPA</td>
+                    <td>オガワ</td>
+                    <td>2025年5月末</td>
+                    <td><span class="badge badge-warning">進行中（約70%）</span></td>
+                </tr>
+                <tr>
+                    <td>年末調整RPA</td>
+                    <td>ノリタケ</td>
+                    <td>2025年4月中（検討中）</td>
+                    <td><span class="badge badge-info">開発開始</span></td>
+                </tr>
+                <tr>
+                    <td>社長の成績表RPA</td>
+                    <td>ナガヤマ</td>
+                    <td>-</td>
+                    <td><span class="badge badge-success">完了</span></td>
+                </tr>
+                <tr>
+                    <td>ヤマザキ商事給与データインポート</td>
+                    <td>ナガヤマ</td>
+                    <td>調査中</td>
+                    <td><span class="badge badge-info">要件確認中</span></td>
+                </tr>
+                <tr>
+                    <td>業務進捗管理表更新RPA</td>
+                    <td>未定</td>
+                    <td>未定</td>
+                    <td><span class="badge badge-info">検討中</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 重要ポイントセクション -->
+    <div class="section issue-section">
+        <h2 class="section-heading"><span class="emoji-icon">🔍</span>重要ポイント</h2>
+        
+        <h3 class="subsection-heading">確定申告RPAの効果</h3>
+        <ul>
+            <li>送信機能は問題なく動作し、所長の業務を切り離せる効果が大きい</li>
+            <li>年間約150件程度の対応で、1件あたり5分程度の作業時間削減</li>
+            <li>0.5→0.1時間へと削減効果あり、MBOとして2ポイント評価</li>
+            <li class="highlight">コミュニケーションコストの削減という見えないメリットも存在</li>
+        </ul>
+
+        <h3 class="subsection-heading">実行環境の課題</h3>
+        <ul>
+            <li>現在使用しているパソコンは社内でも古い部類に入り、処理速度に問題がある可能性</li>
+            <li>ロボットが停止する原因がパソコンのスペック不足か、Excel自体の問題かを切り分ける必要がある</li>
+            <li>停止時の状況を詳細に確認してから対応策を検討する</li>
+        </ul>
+
+        <h3 class="subsection-heading">管理上の課題</h3>
+        <ul>
+            <li class="highlight">半期で1人1つのRPA開発という目標が達成できなかった</li>
+            <li>「いつでもいい」という状態では進まないため、期限を明確にすることが重要</li>
+            <li>下半期は各自が明確な期限を設定して全体会議で宣言する形に</li>
+            <li>モチベーション向上策として提案していた「焼肉争奪戦」は効果が薄かったため中止</li>
+        </ul>
+        
+        <h3 class="subsection-heading">業務フロー変更の可能性</h3>
+        <ul>
+            <li>kintoneとの連携可能性</li>
+            <li>現在の業務フローが変わる可能性がある領域は一時保留</li>
+            <li>部署再編などの情報も踏まえて判断する必要あり</li>
+        </ul>
+    </div>
+
+    <!-- 今後の展望 -->
+    <div class="section">
+        <h2 class="section-heading"><span class="emoji-icon">🎯</span>今後の展望</h2>
+        <ul>
+            <li>具体的な期限設定による確実な実行体制の構築</li>
+            <li>技術的課題（Excel条件指定など）の解決によるスキル向上</li>
+            <li>既存RPAのアップデートによる業務効率のさらなる向上</li>
+            <li>新規業務（業務進捗管理表更新など）へのRPA適用検討</li>
+            <li>下半期でのRPA開発目標達成に向けた進捗管理の徹底</li>
+        </ul>
+    </div>
+</body>
+</html> 
